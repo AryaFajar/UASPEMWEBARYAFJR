@@ -1,0 +1,127 @@
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.logo a{
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	font-family: courier;
+	color: #ff5000;
+}
+
+.menu {
+	float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: black;
+    z-index: 1;
+    border-bottom:2px solid #ff5000 ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #ff5000;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #ff5000;
+}
+
+section {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-2 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: 475px;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: #FF5000;
+  line-height:2;
+}
+
+.column-3 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: 475px;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: #FF5000;
+  line-height:2;
+}
+
+h1{
+	text-align: center;
+	font-family: comic sans ms;
+}
+
+p{
+	font-family: comic sans ms;
+}
+
+.large-profile {
+  background: url(https://cdn.discordapp.com/attachments/871055586719059980/984630090338029578/Lambang_BI.jpg);
+  background-size: 600px;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  padding-left:70px;
+  align-items: center;
+}
